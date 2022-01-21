@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="demologin.css">
+	<script src="scripts.js"></script>
+	<title>Login Mitra - Nurul Fikri</title>
+</head>
+	<body class="bg-cyan">
+		<div class="body body-s">
+		
+			<form action="index-admin.html" class="sky-form" method="get" id="login" onsubmit="return login()">
+				<header>Login form</header>
+				
+				<fieldset>					
+					<section>
+						<div class="row">
+							<label class="label col col-4">Usernam</label>
+							<div class="col col-8">
+								<label class="input">
+									<i class="icon-append icon-user"></i>
+									<input type="text" id="username">
+								</label>
+							</div>
+						</div>
+					</section>
+					
+					<section>
+						<div class="row">
+							<label class="label col col-4">Password</label>
+							<div class="col col-8">
+								<label class="input">
+									<i class="icon-append icon-lock"></i>
+									<input type="password" id="password">
+								</label>
+								<div class="note"><a href="#">Lupa Password?</a></div>
+							</div>
+						</div>
+					</section>
+					
+					<section>
+						<div class="row">
+							<div class="col col-4"></div>
+							<div class="col col-8">
+								<label class="checkbox"><input type="checkbox" name="checkbox-inline"><i></i>Verifikasi</label>
+							</div>
+						</div>
+					</section>
+				</fieldset>
+				<footer>
+					<button type="submit" class="button">Log in</button>
+					<a href="register.html" class="button button-secondary">Register</a>
+				</footer>
+			</form>
+			
+		</div>
+	</body>
+</html>
